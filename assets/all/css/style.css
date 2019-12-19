@@ -1,0 +1,52 @@
+/* Style de index/index.php */
+
+.fondo{
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+.styldiv1{
+    background-color: #66827B ;
+    color: #ffffff;
+    text-decoration: none;
+}
+.colortext{
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.margen1{
+    margin-top: 5rem;
+}
+
+/* Style de login/login.php */
+.lg{
+    margin-top: 4rem;
+    align-items: center;
+}
+
+.letra-login{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+.bt1{
+    margin: 15px;
+    margin-left: 65px;
+    margin-right: 20px;
+}
+
+.bt2{
+    margin: 15px;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
+.tl{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.xd{
+    margin-top: 20px;
+}
+
