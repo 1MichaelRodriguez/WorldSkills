@@ -21,14 +21,15 @@
 </div>
     
 
+
 <div class="container">
     <div class="row">
         <div class="col-md-4 offset-md-1">
-            <form action="" class="lg">
+            <form action="?c=Login&m=auth" method="post" class="lg">
                 <label for="" class="letra-login">Documento</label>
-                <input type="text" name="documento" class="form-control" require>
+                <input type="number" name="documento" class="form-control" required>
                 <label for="" class="letra-login">Contraseña</label>
-                <input type="password" name="pass" class="form-control" require>
+                <input type="password" name="pass" class="form-control" required>
                 <div>
                 <input type="submit" class="btn btn-danger bt1" value="ingresar">
                 <a href="?c=pagina&m=index" class="btn btn-danger bt2">regresar</a>
@@ -38,5 +39,15 @@
     </div>
 </div>
     
+<?php if(@$_REQUEST['error']){ ?>
+<div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                    <center><h3>Documento o Contraseña Incorrecta</h3></center>
+                </div>
+            </div>
+        </div>
+    </div>
+<?php }?>
 </body>
 </html>
