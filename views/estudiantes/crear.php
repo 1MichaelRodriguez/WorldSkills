@@ -17,10 +17,10 @@
             <form action="?c=estudiantes&m=store" method="post"> 
                 <h3 class="l">curso</h3>
                 <select class="form-control" name="fk_cursos"  required>
-                <?php $tipoCursos = parent::consultaCursos();
-                 foreach($tipoCursos as $curso){ ?>
+                <?php /*$tipoCursos = parent::consultaCursos();
+                 foreach($tipoCursos as $curso){ */?>
                     <option value="<?php echo $curso->id_cursos; ?>"><?php echo $curso->curso; ?></option>
-                 <?php } ?>
+                 <?php /*}*/ ?>
                 </select>
                 <h3 class="l">Nombres</h3>
                 <input type="text" class="form-control" name="nombres" placeholder="michael david" required>
@@ -32,10 +32,10 @@
                 <input type="date" name="edad" class="form-control" required>
                 <h3 class="l">tipo documento</h3>
                 <select class="form-control" name="fk_tipo_documento" id="fk_tipo_documento" require>
-                <?php $tipoDocumento = parent::consultaTipoDocumento();
-                 foreach($tipoDocumento as $documento){ ?>
+                <?php /*$tipoDocumento = parent::consultaTipoDocumento();
+                 foreach($tipoDocumento as $documento){ */?>
                     <option value="<?php echo $documento->id_tipo_documento; ?>"><?php echo $documento->tipo_documento; ?></option>
-                 <?php } ?>
+                 <?php /*}*/ ?>
                 </select>
                 <h3 class="l">Documento</h3>
                 <input type="number" name="documento" placeholder="100127..." class="form-control" required>

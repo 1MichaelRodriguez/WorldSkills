@@ -18,8 +18,7 @@
                 <h1 class="titulo">School-List</h1>
             </div>
             <div class="col-md-5 offset-md-8">
-                <a href="?c=login&m=login" class="colortext">profesores |</a>
-                <a href="" class="colortext">Información pagina</a>
+                <a href="?c=login&m=login" class="colortext">profesores</a>
             </div>
         </div>
     </div>

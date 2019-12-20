@@ -20,7 +20,7 @@
                 
                 <div class="col-md-4 bp">
                     <a href="?c=estudiantes&m=crear" class="btn btn-danger bpl">Registrar Estudiante</a>
-                    <a href="" class="btn btn-danger bpl">Registrar Curso</a>
+                    <a href="?c=cursos&m=crear" class="btn btn-danger bpl">Registrar Curso</a>
                     <a href="" class="btn btn-danger bpl">Llamar a lista</a>
                 </div>
              
